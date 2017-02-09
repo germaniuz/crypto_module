@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 700px;
+  margin: 100px auto;
+  padding: 40px;
+  border: 1px solid $light-color;
+  border-radius: $border-radius;
+}
+.row {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.half-page {
+  float: left;
+  width: 48%;
+  &:nth-child(1) {
+    margin-right: 4%;
+  }
+}

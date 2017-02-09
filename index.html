@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto module</title>
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Crypto Module</h1>
+   <div class="row">
+      <div class="half-page">
+       <form action="" id="encrypt-form">
+         <div class="row">
+           <label for="encrypt">Encrypt</label>
+           <textarea id="encrypt" name="encrypt"></textarea>
+           <input id="encrypt-btn" class="success-btn" type="submit" value="Encrypt">
+           <a href="#" class="service-btn reset-btn">Reset</a>
+         </div>
+       </form>
+     </div>
+     <div class="half-page">
+       <form action="" id="decrypt-form">
+         <div class="row">
+           <label for="decrypt">Decrypt</label>
+           <textarea id="decrypt" name="decrypt"></textarea>
+           <input class="warning-btn" type="submit" value="Decrypt">
+           <a href="#" class="service-btn reset-btn">Reset</a>
+         </div>
+       </form>
+     </div>
+   </div>
+   <div class="row">
+    <label for="result">Result</label>
+    <textarea id="result"></textarea>
+    <a href="#" class="copy-btn service-btn">Copy</a>
+   </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/programm.js"></script>
+  <a href="#" id="test">1</a>
+</body>
+</html>
